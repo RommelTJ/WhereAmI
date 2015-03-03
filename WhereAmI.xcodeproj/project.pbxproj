@@ -13,6 +13,7 @@
 		775662201AA5727800B74919 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7756621F1AA5727800B74919 /* Images.xcassets */; };
 		775662231AA5727800B74919 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775662211AA5727800B74919 /* LaunchScreen.xib */; };
 		7756622F1AA5727800B74919 /* WhereAmITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7756622E1AA5727800B74919 /* WhereAmITests.swift */; };
+		775662391AA5730B00B74919 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775662381AA5730B00B74919 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		775662281AA5727800B74919 /* WhereAmITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereAmITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7756622D1AA5727800B74919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7756622E1AA5727800B74919 /* WhereAmITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereAmITests.swift; sourceTree = "<group>"; };
+		775662381AA5730B00B74919 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775662391AA5730B00B74919 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		7756620A1AA5727800B74919 = {
 			isa = PBXGroup;
 			children = (
+				775662381AA5730B00B74919 /* CoreLocation.framework */,
 				775662151AA5727800B74919 /* WhereAmI */,
 				7756622B1AA5727800B74919 /* WhereAmITests */,
 				775662141AA5727800B74919 /* Products */,
